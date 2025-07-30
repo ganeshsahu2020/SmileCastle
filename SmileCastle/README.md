@@ -1,12 +1,30 @@
-# React + Vite
+# Smile Castle
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Smile Castle is an employee attendance and admin management system built using **React (Vite)** for the frontend and **Supabase** for authentication and database management.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Employee login and punch panel.
+- Admin dashboard with employee management.
+- Punch history and punch request management.
+- Secure password reset workflow with admin approval.
+- Supabase backend with Row Level Security (RLS).
+- Easy deployment to Netlify with free subdomain support.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Tech Stack
+- **Frontend:** React (Vite), Tailwind CSS
+- **Backend:** Supabase
+- **Hosting:** Netlify
+- **Database:** PostgreSQL (Supabase)
+
+---
+
+## 🛠️ Local Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/ganeshsahu2020/SmileCastle.git
+cd SmileCastle
