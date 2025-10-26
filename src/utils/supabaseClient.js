@@ -1,4 +1,4 @@
-﻿import { createClient } from '@supabase/supabase-js'
+import { createClient } from '@supabase/supabase-js'
 
 // Read from Vite env (set in .env.local or in Netlify env)
 const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL

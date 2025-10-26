@@ -8,11 +8,11 @@ import EmployeePanel from './components/EmployeePanel'
 
 // NOTE: matches src/components/Admin/AdminLayout.jsx (capital Admin)
 import AdminLayout from './components/Admin/AdminLayout'
-import EmployeeManagement from './components/admin/EmployeeManagement'
-import PunchHistory from './components/admin/PunchHistory'
-import PunchRequests from './components/admin/PunchRequests'
-import Reports from './components/admin/Reports'
-import PasswordRequests from './components/admin/PasswordRequests'
+import EmployeeManagement from './components/Admin/EmployeeManagement'
+import PunchHistory from './components/Admin/PunchHistory'
+import PunchRequests from './components/Admin/PunchRequests'
+import Reports from './components/Admin/Reports'
+import PasswordRequests from './components/Admin/PasswordRequests'
 
 // 🆕 Chat page (common room + DMs)
 import ChatPage from './pages/ChatPage'
