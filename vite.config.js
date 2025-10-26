@@ -1,3 +1,4 @@
+// vite.config.js
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
@@ -5,7 +6,11 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: 5177,          // Custom dev server port
-    open: true           // Auto-open browser on dev start
+    port: 5177,    // dev server port (npm run dev)
+    open: true
+  },
+  preview: {
+    port: 5177,    // preview server port (npm run preview)
+    open: true
   }
 })
