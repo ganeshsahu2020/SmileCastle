@@ -1,0 +1,70 @@
+<!-- public/assets/brand/toothy-knight-mark.svg -->
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Smile Castle Toothy Knight">
+  <defs>
+    <!-- background squircle gradient -->
+    <linearGradient id="bg" x1="28" y1="20" x2="228" y2="236" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10B981"/>
+      <stop offset="0.5" stop-color="#06B6D4"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+    <!-- subtle tooth shading -->
+    <radialGradient id="tooth" cx="0" cy="0" r="1" gradientTransform="translate(120 80) rotate(75) scale(160)" >
+      <stop offset="0" stop-color="#FFF9ED"/>
+      <stop offset="1" stop-color="#F0E7DA"/>
+    </radialGradient>
+    <clipPath id="squircle">
+      <rect x="16" y="16" width="224" height="224" rx="36" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#squircle)">
+    <!-- rounded square bg -->
+    <rect x="16" y="16" width="224" height="224" rx="36" fill="url(#bg)"/>
+
+    <!-- cape (behind tooth) -->
+    <path d="M34 150c34-30 70-38 110-18 22 11 44 8 78-10v46c-24 14-45 20-66 10-28-13-69-11-95 12-9 8-19 1-27-6v-34z"
+          fill="#6CB8D1" opacity=".8"/>
+    <path d="M34 150c34-30 70-38 110-18 22 11 44 8 78-10" stroke="#255063" stroke-width="6" stroke-linecap="round" opacity=".25"/>
+
+    <!-- sword (right hand) -->
+    <g transform="translate(190 92)">
+      <rect x="10" y="4" width="10" height="60" rx="3" fill="#C9A777"/>
+      <path d="M12 0h6l4 4v4H8v-4l4-4z" fill="#D6B98E"/>
+      <rect x="0" y="58" width="30" height="8" rx="4" fill="#8C6B45"/>
+      <circle cx="15" cy="62" r="3" fill="#C9A777"/>
+    </g>
+
+    <!-- tooth body -->
+    <path d="M58 74c0-20 16-34 44-34 13 0 24 4 28 6 4-2 15-6 28-6 28 0 44 14 44 34 0 16-6 38-9 54-3 12-11 22-23 25-10 3-21 0-29-7-2-2-5-2-7 0-8 7-19 10-29 7-12-3-20-13-23-25-3-16-9-38-9-54z"
+          fill="url(#tooth)"/>
+
+    <!-- dimple -->
+    <path d="M164 56c13 1 18 5 18 8 0 3-7 2-18 1-9-1-13-3-13-5 0-3 5-4 13-4z" fill="#E9DCCA"/>
+    
+    <!-- cheeks -->
+    <circle cx="96" cy="112" r="10" fill="#FFB3B3" opacity=".9"/>
+    <circle cx="160" cy="112" r="10" fill="#FFB3B3" opacity=".9"/>
+
+    <!-- eyes -->
+    <g fill="#0F172A">
+      <circle cx="102" cy="98" r="7"/>
+      <circle cx="154" cy="98" r="7"/>
+    </g>
+    <g fill="#FFFFFF" opacity=".9">
+      <circle cx="105" cy="95" r="2.4"/>
+      <circle cx="157" cy="95" r="2.4"/>
+    </g>
+
+    <!-- mouth -->
+    <path d="M118 122c0 10 20 10 20 0" stroke="#0F172A" stroke-width="6" stroke-linecap="round"/>
+    <path d="M122 120h12v6c-4 2-8 2-12 0v-6z" fill="#E2556D"/>
+
+    <!-- brooch + cape front -->
+    <circle cx="128" cy="130" r="8" fill="#D6B98E" stroke="#8C6B45" stroke-width="3"/>
+    <path d="M68 140c18-12 36-16 60-10 24-6 42-2 60 10" stroke="#6CB8D1" stroke-width="10" stroke-linecap="round" opacity=".9"/>
+
+    <!-- little hands -->
+    <circle cx="70" cy="138" r="8" fill="url(#tooth)"/>
+    <circle cx="198" cy="138" r="8" fill="url(#tooth)"/>
+  </g>
+</svg>
