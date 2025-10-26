@@ -1,0 +1,3 @@
+# keep these two as LF on Windows so Netlify parses them
+netlify.toml          text eol=lf
+public/_redirects     text eol=lf
